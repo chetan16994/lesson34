@@ -2,7 +2,6 @@
 
 const express = require("express"),
   app = express(),
-  
   router = require("./routes/index"),
   layouts = require("express-ejs-layouts"),
   mongoose = require("mongoose"),
